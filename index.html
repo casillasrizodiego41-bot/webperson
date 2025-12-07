@@ -1,0 +1,217 @@
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Diego -</title>
+<!-- Fuente elegante y moderna -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+<!-- Iconos de redes sociales -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<style>
+  /* Estilos base */
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #ccc;
+  }
+
+  /* Encabezado */
+  header {
+    background-color: #222;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: 2px;
+  }
+
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #aaa;
+  }
+
+  /* Navegación */
+  nav {
+    margin-top: 20px;
+  }
+
+  nav a {
+    margin: 0 20px;
+    font-weight: 700;
+    font-size: 1.1em;
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    color: #ffd700;
+  }
+
+  /* Sección de servicios */
+  section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  /* Grid de servicios */
+  .servicios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+
+  .card {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  }
+
+  .card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #ffd700;
+  }
+
+  .card p {
+    font-size: 1em;
+    color: #ccc;
+  }
+
+  /* Apartado de redes sociales */
+  #redes {
+    background-color: #222;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  #redes h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  .redes-icons {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  .redes-icons a {
+    margin: 0 15px;
+    color: #fff;
+    transition: color 0.3s;
+  }
+
+  .redes-icons a:hover {
+    color: #ffd700;
+  }
+
+  /* Pie de página */
+  footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+  }
+
+  /* Responsive */
+  @media(max-width: 768px) {
+    header h1 {
+      font-size: 2em;
+    }
+
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Diego</h1>
+  <p>Editor de Video | paginas web | Edicion de fotografia | Diseñador Gráfico</p>
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#sobre">Sobre mí</a>
+    <a href="#redes">Redes sociales</a>
+  </nav>
+</header>
+
+<!-- Sección de Servicios -->
+<section id="servicios">
+  <h2>Mis Servicios</h2>
+  <div class="servicios">
+    <div class="card">
+      <h3>Edición de Videos</h3>
+      <p>Creación, montaje y postproducción de videos para proyectos personales, comerciales o redes sociales.</p>
+    </div>
+    <div class="card">
+      <h3>Diseño Web</h3>
+      <p>Desarrollo de páginas web modernas, responsive y personalizadas para negocios, portfolios o proyectos personales.</p>
+    </div>
+    <div class="card">
+      <h3>Edición de Fotos</h3>
+      <p>Retocado, retoque y manipulación de fotografías para que luzcan profesionales y atractivas.</p>
+    </div>
+    <div class="card">
+      <h3>Diseño Gráfico</h3>
+      <p>Creación de logos, banners y materiales visuales que reflejen tu marca o proyecto.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Sobre mí -->
+<section id="sobre">
+  <h2>Sobre mí</h2>
+  <p style="max-width:800px; margin:auto; text-align:center; font-size:1.2em; color:#ccc;">Soy Diego,un  dedicado a la creación y edición de contenido visual y web. Mi pasión es transformar ideas en proyectos visuales impactantes y funcionales. Con experiencia en diferentes áreas, puedo ayudarte a potenciar tu presencia digital y visual. ¡Contáctame y hagamos realidad tu proyecto!</p>
+</section>
+
+<!-- Redes sociales -->
+<section id="redes">
+  <h2>Sígueme en Redes Sociales</h2>
+  <div class="redes-icons">
+    <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+  </div>
+  <p>&copy; 2025 Diego. Todos los derechos reservados.</p>
+</section>
+
+<!-- Pie de página -->
+<footer>
+  <p>Contacto: rzoodiego@gmail.com | Tel: 3342678101</p>
+</footer>
+
+</body>
+</html>
